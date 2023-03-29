@@ -1,13 +1,15 @@
+
+//package uk.ac.leedsbeckett.mullier.sesc;
+import java.util.NoSuchElementException;
+
+import uk.ac.leedsbeckett.mullier.sesc.*;
+
 /**
  * 
  * @author D Mullier
- * simple example to use Award, Competitor and Cycle League
+ * simple main class example to use Award, Competitor and Cycle League
  *
  */
-package uk.ac.leedsbeckett.mullier.sesc;
-import java.util.NoSuchElementException;
-
-
 
 public class League 
 {
@@ -47,7 +49,7 @@ public class League
 			c2.addAward(award);
 			c = league.getCompetitor("Person 9");
 			c.addAward(new Award("Triangle Trophy"));
-			league.displayCompetitors();
+			System.out.println(league.getCompetitorsList());
 			c = league.getCompetitor("Person 9");
 			
 			
@@ -57,6 +59,11 @@ public class League
 		{
 			System.out.println(e.getMessage());
 		}
+	}
+
+	private char[] toStringCompetitors() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	
 }

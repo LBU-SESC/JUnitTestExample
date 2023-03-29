@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"uk.ac.leedsbeckett.mullier.sesc","l":"Award"},{"p":"uk.ac.leedsbeckett.mullier.sesc","l":"Competitor"},{"p":"uk.ac.leedsbeckett.mullier.sesc","l":"CycleLeague"}];updateSearchResults();
